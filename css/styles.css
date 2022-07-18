@@ -127,16 +127,16 @@ body {
   margin-right: auto;
 }
 
-.site-nav-links {
+.site-nav__list {
   display: flex;
   align-items: center;
 }
 
-.site-nav-links .item:not(:last-child) {
+.site-nav__link:not(:last-child) {
   margin-right: 50px;
 }
 
-.site-nav-links .link {
+.site-nav__link {
   display: block;
   position: relative;
 
@@ -153,11 +153,11 @@ body {
   transition: color var(--duration) var(--timing-function);
 }
 
-.site-nav-links .link.current {
+.site-nav__link--current {
   color: var(--accent-color);
 }
 
-.current::after {
+.site-nav__link--current::after {
   position: absolute;
   display: block;
   bottom: 0;
@@ -171,8 +171,8 @@ body {
   border-radius: 2px;
 }
 
-.site-nav-links .link:hover,
-.site-nav-links .link:focus {
+.site-nav__link:hover,
+.site-nav__link:focus {
   color: var(--accent-color);
 }
 
