@@ -63,272 +63,238 @@
 
     <!-- Maim -->
     <main>
+
       <!-- Filters -->
       <section class="section">
         <div class="container">
           <h1 class="visually-hidden">Примеры работ</h1>
 
-          <ul class="list-filters">
-            <li class="item">
-              <button type="button" class="filter active">Все</button>
-            </li>
-            <li class="item">
-              <button type="button" class="filter">Веб-сайты</button>
-            </li>
-            <li class="item">
-              <button type="button" class="filter">Приложения</button>
-            </li>
-            <li class="item">
-              <button type="button" class="filter">Дизайн</button>
-            </li>
-            <li class="item">
-              <button type="button" class="filter">Маркетинг</button>
-            </li>
-          </ul>
+          <div class="filters">
+            <ul class="filters__list">
+              <li>
+                <button type="button" class="filters__element filters__element--active">Все</button>
+              </li>
+              <li>
+                <button type="button" class="filters__element">Веб-сайты</button>
+              </li>
+              <li>
+                <button type="button" class="filters__element">Приложения</button>
+              </li>
+              <li>
+                <button type="button" class="filters__element">Дизайн</button>
+              </li>
+              <li>
+                <button type="button" class="filters__element">Маркетинг</button>
+              </li>
+            </ul>
+          </div>
+
+          
 
           <!-- Projects -->
 
-          <ul class="list-projects">
-            <li class="item">
-              <a class="project-link" href="">
-                <div class="image-project">
-                  <img
-                    src="./images/project1.jpg"
-                    alt="Пример вебсайта на ноутбуке."
-                    width="370"
-                    height="294"
-                  />
-                  <div class="overlay-project">
-                    <p>
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
-                    </p>
+          <div class="projects">
+            <ul class="projects__list">
+              <li class="projects__item">
+                <a class="projects__link" href="">
+                  <div class="projects__image">
+                    
+                    <img src="./images/project1.jpg" alt="Пример вебсайта на ноутбуке." width="370" height="294" />
+                    
+                    <div class="projects__overlay">
+                      <p>
+                        Ресурс предлагает комплексные предложения с разным уровнем
+                        функционала и сервисов. Все это позволит посетителю
+                        получить исчерпывающие сведения о компании или частном
+                        лице.
+                      </p>
+                    </div>
                   </div>
-                </div>
-
-                <div class="description-project">
-                  <h3 class="title-project">Технокряк</h3>
-                  <p class="type-project">Веб-сайт</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="item">
-              <a href="" class="project-link">
-                <div class="image-project">
-                  <img
-                    src="./images/project2.jpg"
-                    alt="Два игрока в баскетболе боряться за мяч."
-                    width="370"
-                    height="294"
-                  />
-
-                  <div class="overlay-project">
-                    <p>
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
-                    </p>
+            
+                  <div class="projects__description">
+                    <h3 class="title projects__title">Технокряк</h3>
+                    <p class="projects__type">Веб-сайт</p>
                   </div>
-                </div>
-
-                <div class="description-project">
-                  <h3 class="title-project">
-                    Постер New Orlean vs Golden Star
-                  </h3>
-                  <p class="type-project">Дизайн</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="item">
-              <a href="" class="project-link">
-                <div class="image-project">
-                  <img
-                    src="./images/project3.jpg"
-                    alt="Большой лосось."
-                    width="370"
-                    height="294"
-                  />
-
-                  <div class="overlay-project">
-                    <p>
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
-                    </p>
+                </a>
+              </li>
+            
+              <li class="projects__item">
+                <a href="" class="projects__link">
+                  <div class="projects__image">
+                    <img src="./images/project2.jpg" alt="Два игрока в баскетболе боряться за мяч." width="370" height="294" />
+            
+                    <div class="projects__overlay">
+                      <p>
+                        Ресурс предлагает комплексные предложения с разным уровнем
+                        функционала и сервисов. Все это позволит посетителю
+                        получить исчерпывающие сведения о компании или частном
+                        лице.
+                      </p>
+                    </div>
                   </div>
-                </div>
-
-                <div class="description-project">
-                  <h3 class="title-project">Ресторан Seafood</h3>
-                  <p class="type-project">Приложение</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="item">
-              <a href="" class="project-link">
-                <div class="image-project">
-                  <img
-                    src="./images/project4.jpg"
-                    alt="Наушники."
-                    width="370"
-                    height="294"
-                  />
-
-                  <div class="overlay-project">
-                    <p>
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
-                    </p>
+            
+                  <div class="projects__description">
+                    <h3 class="title projects__title">
+                      Постер New Orlean vs Golden Star
+                    </h3>
+                    <p class="projects__type">Дизайн</p>
                   </div>
-                </div>
-
-                <div class="description-project">
-                  <h3 class="title-project">Проект Prime</h3>
-                  <p class="type-project">Маркетинг</p>
-                </div>
-              </a>
-            </li>
-            <li class="item">
-              <a href="" class="project-link">
-                <div class="image-project">
-                  <img
-                    src="./images/project5.jpg"
-                    alt="Две коробки белого и коричневого цвета."
-                    width="370"
-                    height="294"
-                  />
-
-                  <div class="overlay-project">
-                    <p>
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
-                    </p>
+                </a>
+              </li>
+            
+              <li class="projects__item">
+                <a href="" class="projects__link">
+                  <div class="projects__image">
+                    <img src="./images/project3.jpg" alt="Большой лосось." width="370" height="294" />
+            
+                    <div class="projects__overlay">
+                      <p>
+                        Ресурс предлагает комплексные предложения с разным уровнем
+                        функционала и сервисов. Все это позволит посетителю
+                        получить исчерпывающие сведения о компании или частном
+                        лице.
+                      </p>
+                    </div>
                   </div>
-                </div>
-
-                <div class="description-project">
-                  <h3 class="title-project">Проект Boxes</h3>
-                  <p class="type-project">Приложение</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="item">
-              <a href="" class="project-link">
-                <div class="image-project">
-                  <img
-                    src="./images/project6.jpg"
-                    alt="Монитор компьютера с картой мира."
-                    width="370"
-                    height="294"
-                  />
-
-                  <div class="overlay-project">
-                    <p>
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
-                    </p>
+            
+                  <div class="projects__description">
+                    <h3 class="title projects__title">Ресторан Seafood</h3>
+                    <p class="projects__type">Приложение</p>
                   </div>
-                </div>
-
-                <div class="description-project">
-                  <h3 class="title-project">Inspiration has no Borders</h3>
-                  <p class="type-project">Веб-сайт</p>
-                </div>
-              </a>
-            </li>
-            <li class="item">
-              <a href="" class="project-link">
-                <div class="image-project">
-                  <img
-                    src="./images/project7.jpg"
-                    alt="Открытая книга по дизайну."
-                    width="370"
-                    height="294"
-                  />
-
-                  <div class="overlay-project">
-                    <p>
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
-                    </p>
+                </a>
+              </li>
+            
+              <li class="projects__item">
+                <a href="" class="projects__link">
+                  <div class="projects__image">
+                    <img src="./images/project4.jpg" alt="Наушники." width="370" height="294" />
+            
+                    <div class="projects__overlay">
+                      <p>
+                        Ресурс предлагает комплексные предложения с разным уровнем
+                        функционала и сервисов. Все это позволит посетителю
+                        получить исчерпывающие сведения о компании или частном
+                        лице.
+                      </p>
+                    </div>
                   </div>
-                </div>
-
-                <div class="description-project">
-                  <h3 class="title-project">Издание Limited Edition</h3>
-                  <p class="type-project">Дизайн</p>
-                </div>
-              </a>
-            </li>
-            <li class="item">
-              <a href="" class="project-link">
-                <div class="image-project">
-                  <img
-                    src="./images/project8.jpg"
-                    alt="Бирка с надписью Lab EL TAG."
-                    width="370"
-                    height="294"
-                  />
-
-                  <div class="overlay-project">
-                    <p>
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
-                    </p>
+            
+                  <div class="projects__description">
+                    <h3 class="title projects__title">Проект Prime</h3>
+                    <p class="projects__type">Маркетинг</p>
                   </div>
-                </div>
-
-                <div class="description-project">
-                  <h3 class="title-project">Проект LAB</h3>
-                  <p class="type-project">Маркетинг</p>
-                </div>
-              </a>
-            </li>
-            <li class="item">
-              <a href="" class="project-link">
-                <div class="image-project">
-                  <img
-                    src="./images/project9.jpg"
-                    alt="Работа над проектом на ноутбуке."
-                    width="370"
-                    height="294"
-                  />
-
-                  <div class="overlay-project">
-                    <p>
-                      Ресурс предлагает комплексные предложения с разным уровнем
-                      функционала и сервисов. Все это позволит посетителю
-                      получить исчерпывающие сведения о компании или частном
-                      лице.
-                    </p>
+                </a>
+              </li>
+              <li class="projects__item">
+                <a href="" class="projects__link">
+                  <div class="projects__image">
+                    <img src="./images/project5.jpg" alt="Две коробки белого и коричневого цвета." width="370" height="294" />
+            
+                    <div class="projects__overlay">
+                      <p>
+                        Ресурс предлагает комплексные предложения с разным уровнем
+                        функционала и сервисов. Все это позволит посетителю
+                        получить исчерпывающие сведения о компании или частном
+                        лице.
+                      </p>
+                    </div>
                   </div>
-                </div>
+            
+                  <div class="projects__description">
+                    <h3 class="title projects__title">Проект Boxes</h3>
+                    <p class="projects__type">Приложение</p>
+                  </div>
+                </a>
+              </li>
+            
+              <li class="projects__item">
+                <a href="" class="projects__link">
+                  <div class="projects__image">
+                    <img src="./images/project6.jpg" alt="Монитор компьютера с картой мира." width="370" height="294" />
+            
+                    <div class="projects__overlay">
+                      <p>
+                        Ресурс предлагает комплексные предложения с разным уровнем
+                        функционала и сервисов. Все это позволит посетителю
+                        получить исчерпывающие сведения о компании или частном
+                        лице.
+                      </p>
+                    </div>
+                  </div>
+            
+                  <div class="projects__description">
+                    <h3 class="title projects__title">Inspiration has no Borders</h3>
+                    <p class="projects__type">Веб-сайт</p>
+                  </div>
+                </a>
+              </li>
+              <li class="projects__item">
+                <a href="" class="projects__link">
+                  <div class="projects__image">
+                    <img src="./images/project7.jpg" alt="Открытая книга по дизайну." width="370" height="294" />
+            
+                    <div class="projects__overlay">
+                      <p>
+                        Ресурс предлагает комплексные предложения с разным уровнем
+                        функционала и сервисов. Все это позволит посетителю
+                        получить исчерпывающие сведения о компании или частном
+                        лице.
+                      </p>
+                    </div>
+                  </div>
+            
+                  <div class="projects__description">
+                    <h3 class="title projects__title">Издание Limited Edition</h3>
+                    <p class="projects__type">Дизайн</p>
+                  </div>
+                </a>
+              </li>
+              <li class="projects__item">
+                <a href="" class="projects__link">
+                  <div class="projects__image">
+                    <img src="./images/project8.jpg" alt="Бирка с надписью Lab EL TAG." width="370" height="294" />
+            
+                    <div class="projects__overlay">
+                      <p>
+                        Ресурс предлагает комплексные предложения с разным уровнем
+                        функционала и сервисов. Все это позволит посетителю
+                        получить исчерпывающие сведения о компании или частном
+                        лице.
+                      </p>
+                    </div>
+                  </div>
+            
+                  <div class="projects__description">
+                    <h3 class="title projects__title">Проект LAB</h3>
+                    <p class="projects__type">Маркетинг</p>
+                  </div>
+                </a>
+              </li>
+              <li class="projects__item">
+                <a href="" class="projects__link">
+                  <div class="projects__image">
+                    <img src="./images/project9.jpg" alt="Работа над проектом на ноутбуке." width="370" height="294" />
+            
+                    <div class="projects__overlay">
+                      <p>
+                        Ресурс предлагает комплексные предложения с разным уровнем
+                        функционала и сервисов. Все это позволит посетителю
+                        получить исчерпывающие сведения о компании или частном
+                        лице.
+                      </p>
+                    </div>
+                  </div>
+            
+                  <div class="projects__description">
+                    <h3 class="title projects__title">Growing Business</h3>
+                    <p class="projects__type">Приложение</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
 
-                <div class="description-project">
-                  <h3 class="title-project">Growing Business</h3>
-                  <p class="type-project">Приложение</p>
-                </div>
-              </a>
-            </li>
-          </ul>
+          
         </div>
       </section>
     </main>
