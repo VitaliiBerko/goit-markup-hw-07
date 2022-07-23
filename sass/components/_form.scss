@@ -43,7 +43,8 @@
             transition: fill var(--duration) var(--timing-function);
 
             .form-field__inner:focus-within & {
-                    fill: var(--accent-color);
+                    fill: var(--accent-color);                    
+
                 }
         }
     
